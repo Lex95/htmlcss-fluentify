@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* prima sezione blu */
 #s1 {
     height: 550px;
     background-color: midnightblue;
@@ -73,6 +74,7 @@ h1{
     padding: 20px;
     display: inline-block;
 }
+/* seconda sezione grigia */
 #s2 {
     background-color: lightgrey;
     height: 150px;
@@ -90,6 +92,7 @@ h1{
     color: grey;
     margin-top: 10px;
 }
+/* terza sezione bianca */
 #s3 {
     height: 450px;
     border-bottom: 1px solid grey;
@@ -127,6 +130,7 @@ h1{
 #s3 p {
     color: grey;
 }
+/* quarta sezione bianca */
 #s4 {
     height: 500px;
 }
@@ -148,6 +152,7 @@ h1{
     color: blue;
     font-size: initial;
 }
+/* quinta sezione grigia */
 #s5 {
     height: 150px;
     background-color: lightgray;
@@ -181,4 +186,9 @@ footer .selector {
     background-color: lightgray;
     border: none;
     border-bottom: 1px solid grey;
+}
+#help-button {
+    position: fixed;
+    bottom: 0;
+    right: 20%;
 }
