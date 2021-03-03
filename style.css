@@ -69,7 +69,7 @@ h1{
     font-size: 50px;
     margin-bottom: 40px;
 }
-#banner-button {
+.big {
     padding: 20px;
     display: inline-block;
 }
@@ -128,7 +128,7 @@ h1{
     color: grey;
 }
 #s4 {
-    height: 300px;
+    height: 500px;
 }
 #s4 .column {
     width: 50%;
@@ -147,4 +147,38 @@ h1{
 .column-text > a {
     color: blue;
     font-size: initial;
+}
+#s5 {
+    height: 150px;
+    background-color: lightgray;
+}
+footer {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+footer::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+footer h2 {
+    float: left;
+}
+.footer-text {
+    float: right;
+}
+.footer-text > * {
+    margin-left: 20px;
+}
+footer span {
+    color: grey;
+}
+footer .selector {
+    width: 150px;
+    color: grey;
+    background-color: lightgray;
+    border: none;
+    border-bottom: 1px solid grey;
 }
