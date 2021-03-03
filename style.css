@@ -13,11 +13,9 @@
 }
 .container {
     width: 1024px;
+    height: 100%;
     margin: auto;
     position: relative;
-}
-section > .container {
-    height: 100%;
 }
 nav {
     height: 80px;
@@ -91,4 +89,41 @@ h1{
 .banner-text > p {
     color: grey;
     margin-top: 10px;
+}
+#s3 {
+    height: 550px;
+}
+#s3 > container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.column {
+    height: 100%;
+    float: left;
+}
+#s3 .column {
+    width: 33.3%;
+    padding: 30px 25px;
+    text-align: center;
+    font-size: 16px;
+}
+#s3 img {
+    height: 150px;
+}
+#s3 h2 {
+    color: limegreen;
+    margin: 15px 0;
+    height: 50px;
+}
+.line {
+    width: 60px;
+    height: 20px;
+    border-top: 1px solid grey;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#s3 p {
+    color: grey;
 }
