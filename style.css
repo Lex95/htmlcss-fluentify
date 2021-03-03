@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 #s1 {
-    height: 800px;
+    height: 550px;
     background-color: midnightblue;
+    background-image: url(img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .container {
     width: 1024px;
     margin: auto;
+    position: relative;
 }
 nav {
     height: 80px;
@@ -41,6 +46,7 @@ nav > img, #list-1 {
     float: right;
 }
 .button {
+    text-transform: uppercase;
     padding: 10px;
     border-radius: 5px;
 }
@@ -50,4 +56,17 @@ nav > img, #list-1 {
 }
 .b2 {
     background-color: limegreen;
+}
+.banner-text {
+    width: 500px;
+    position: absolute;
+    top: 200%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+#banner-button {
+    padding: 20px;
 }
